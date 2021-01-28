@@ -12,18 +12,24 @@ The raw dataset can be obtained from:https://d396qusza40orc.cloudfront.net/getda
 Full description is available at :http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
 # Data analysis
-- Set yor working directory
+- Set your working directory
 
 - Run the ```get_raw-data.r``` script to download the dataset.
 
 - Then run the ```run_analysis.r``` script to perform the actual analysis
-   ```run_analysis.r``` performs the following-
+   ```run_analysis.r``` performs the following
+   
       - Read the Dataset
-      -Merges the training and the test sets to create one single data set.
-      -Extracts only the measurements on the mean and standard deviation for each measurement.
-      -Uses descriptive activity names to name the activities in the data set
-      -Appropriately labels the data set with descriptive variable names.
-      -Creates a independent tidy data set with the average of each variable for each activity and each subject.
+      
+      - Merges the training and the test sets to create one single data set.
+      
+      - Extracts only the measurements on the mean and standard deviation for each measurement.
+      
+      - Uses descriptive activity names to name the activities in the data set
+      
+      - Appropriately labels the data set with descriptive variable names.
+      
+      - Creates a independent tidy data set with the average of each variable for each activity and each subject.
 
 After performing the analysis, the following files will be created:   
 - ```merged_and_cleaned_dataset.txt``` 
