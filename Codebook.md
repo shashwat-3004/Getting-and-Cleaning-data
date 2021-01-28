@@ -2,7 +2,7 @@
 title: "Codebook"
 author: "shashwat-3004"
 date: "28/01/2021"
-output: pdf_document
+
 ---
 
 
@@ -54,9 +54,9 @@ The following files are available for the train and test data. Their description
 # Data Manipulation Steps
 In the run_analysis.r, these steps have been followed-
 
-- First, all the needed raw data is read.
+- ## First, all the needed raw data is read.
 
-- Training data and test data are merged.
+- ## Training data and test data are merged.
 
     - X_train.txt and X_test.txt :This results in a 10299x561 data frame, as reported in the original description ("Number of       Instances: 10299" and "Number of Attributes: 561")
     
@@ -72,7 +72,7 @@ In the run_analysis.r, these steps have been followed-
     
     - All measurements correspond to numeric (real) numbers in the range (-1, 1).
     
-- Descriptives activity names given to the activities in the dataset
+- ## Descriptives activity names given to the activities in the dataset
 
     - Activity_labels.txt consists of all the descriptive activity names along with the acticity ids. It is used to name the activites in the data set. The activites include
          - WALKING  (1)
@@ -84,7 +84,7 @@ In the run_analysis.r, these steps have been followed-
          
 The numbers denote the activity ids.
 
-- Appropriately label the data set.
+- ## Appropriately label the data set.
 
     - The script properly labels the dataset with descriptive names.
     
@@ -167,7 +167,7 @@ The numbers denote the activity ids.
 
 The result is saved as merged_and_cleaned_dataset.txt
 
-- Creating averaged tidy dataset
+- ## Creating averaged tidy dataset
 
    - the script creates a second, and independent tidy dataset with the average of each measurement for each activity and         each subject.(There are two tidy dataset included, one is spreaded tidy data while other is gathered tidy data)
    
