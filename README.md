@@ -17,6 +17,7 @@ Full description is available at :http://archive.ics.uci.edu/ml/datasets/Human+A
 - Run the ```get_raw-data.r``` script to download the dataset.
 
 - Then run the ```run_analysis.r``` script to perform the actual analysis
+   
    ```run_analysis.r``` performs the following
    
       - Read the Dataset
