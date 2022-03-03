@@ -4,7 +4,7 @@ Course-3 Data Science
 
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
-In more details, the following steps are required to complete the assignment: 1) a tidy data set as described below; 2) a link to a Github repository with your script for performing the analysis; 3) a Code book that describes the variables, the data, and any transformations performed to clean up the data called.
+In more details, the following steps are required to complete the assignment: 1) a tidy data set as described below; 2) a link to a Github repository with your script for performing the analysis; 3) a Code book that describes the variables, the data, and any transformations performed to clean up the data called. 
 
 # Data description
 The raw dataset can be obtained from:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
